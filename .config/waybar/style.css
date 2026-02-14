@@ -1,0 +1,152 @@
+/* ===============================
+   Gruvbox Dark Hard – Waybar
+   =============================== */
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Hack Nerd Font;
+    font-size: 15px;
+    min-height: 0;
+}
+
+/* Bar background */
+window#waybar {
+    background: #1d2021;
+    color: #ebdbb2;
+}
+
+/* Workspaces */
+#workspaces button {
+    padding: 0 2px;
+    background: transparent;
+    color: #928374;
+}
+
+#workspaces button.focused {
+    background: #282828;
+    color: #ebdbb2;
+}
+
+#workspaces button.urgent {
+    background: #cc241d;
+    color: #fbf1c7;
+}
+
+/* Modules common */
+#clock,
+#cpu,
+#memory,
+#temperature,
+#pulseaudio,
+#network,
+#battery,
+#tray {
+    padding: 0 10px;
+    margin: 4px 2px;
+    background: #282828;
+    color: #ebdbb2;
+}
+
+/* Clock */
+#clock {
+    color: #d79921;
+}
+
+/* CPU */
+#cpu {
+    color: #98971a;
+}
+
+/* Memory */
+#memory {
+    color: #689d6a;
+}
+
+/* Temperature */
+#temperature {
+    color: #d65d0e;
+}
+
+#temperature.critical {
+    background: #cc241d;
+    color: #fbf1c7;
+}
+
+/* Audio */
+#pulseaudio {
+    color: #458588;
+}
+
+#pulseaudio.muted {
+    color: #928374;
+}
+
+/* Network */
+#network {
+    color: #83a598;
+}
+
+#network.disconnected {
+    color: #cc241d;
+}
+
+/* Battery */
+#battery {
+    color: #b8bb26;
+}
+
+#battery.warning {
+    color: #fabd2f;
+}
+
+#battery.critical {
+    color: #fb4934;
+}
+
+/* Tray */
+#tray {
+    background: #1d2021;
+}
+
+/* Tooltips */
+tooltip {
+    background: #282828;
+    border: 1px solid #3c3836;
+}
+
+tooltip label {
+    color: #ebdbb2;
+}
+
+#custom-launcher {
+    padding: 0 12px;
+    margin: 4px 6px;
+    background: #282828;
+    color: #98971a;
+
+    border-radius: 6px;
+
+    font-weight: 500;
+}
+
+#custom-launcher:hover {
+    background: #32302f;
+    color: #98971a;
+}
+
+#custom-power {
+    padding: 0 12px;
+    margin: 4px 6px;
+    background: #282828;
+    color: #cc241d;
+
+    border-radius: 6px;
+
+    font-weight: 600;
+}
+
+#custom-power:hover {
+    background: #cc241d;
+    color: #fbf1c7;
+}

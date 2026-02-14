@@ -1,0 +1,8 @@
+# files
+*~
+\#*\#
+
+# Directories
+.cache/
+.local/share/Trash/
+Downloads/

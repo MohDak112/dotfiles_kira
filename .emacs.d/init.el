@@ -33,8 +33,9 @@
 ;; Packages
 (require 'package)
 (add-to-list 'package-archives
-             '(("melpa" . "https://melpa.org/packages/")
-	     ("gnu"   . "https://elpa.gnu.org/packages/")))
+        '(("melpa" . "https://melpa.org/packages/")
+          ("gnu" . "https://elpa.gnu.org/packages/")
+          ("melpa-stable" . "https://stable.melpa.org/packages/")))
 (package-initialize)
 
 ;; Evil mode

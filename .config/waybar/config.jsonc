@@ -231,7 +231,7 @@
         "tooltip": false,
         /* "on-click": "bash ~/.config/rofi/leave/leave.sh", */
         /* "on-click":"rofi-powermenu" */
-        "on-click": "wlogout -c 15 -b 6 -m 400"
+        "on-click": "wlogout"
     },
     "custom/firefox": {
         "format": "",

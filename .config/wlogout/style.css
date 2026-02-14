@@ -1,0 +1,19 @@
+window {
+    background-color: rgba(15, 15, 15, 0.85);
+}
+
+button {
+    font-size: 24px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 25px;
+    padding: 40px;
+    border: 2px solid #fe8019;
+    border-radius: 18px;
+    transition: 150ms ease-in-out;
+}
+
+button:hover {
+    border: 2px solid #5e81ac;
+}
+

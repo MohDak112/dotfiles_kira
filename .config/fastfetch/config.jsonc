@@ -1,0 +1,51 @@
+{
+
+  "modules": [   
+    {
+        "type": "users",
+        "key": " ",
+        "format": "{#}Welcome back, {##008000}{name}{#}!"
+    },
+    "break",
+    {
+      "type": "os",
+      "key": " ",
+      "format":"{##d65d0e} {#}OS: {#}{name} Linux"
+    },
+    {
+      "type": "kernel",
+      "key": " ",
+      "format": "{##d65d0e} {#}Kernel: {#}{2} - {4}"
+    },
+
+    {
+      "type": "packages",
+      "key": " ",
+      "format": "{##d65d0e} {#}Packages: {#}{8}",
+      "combined": false
+    },
+
+    {
+      "type": "wm",
+      "key": " ",
+      "format": "{##d65d0e} {#}WM: {#}{1}"
+    },
+
+    // {
+    //   "type": "uptime",
+    //   "key": " ",
+    //   "format": "{##d65d0e} {#}Uptime: {#}{1} days {2} hours {3} minutes {4} seconds"
+    // },
+
+    // {
+    //   "type": "cpu",
+    //   "key": " ", 
+    //   "temp": true,
+    //  "format":"{##d65d0e} {#}Cpu: {#}{name} ({temperature})"
+    // },
+    {
+        "type": "memory",
+        "key": "{##d65d0e} {#}Memory"
+    }
+  ]
+}

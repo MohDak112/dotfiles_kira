@@ -30,14 +30,14 @@ cursor {
 }
 
 // Monitors
-output "HDMI-A-1" {
-	mode "1366x768@60.000"
-	position x=0 y=0
-}
+// output "HDMI-A-1" {
+// 	mode "1366x768@60.000"
+// 	position x=0 y=0
+// }
 
 output "VGA-1" {
 	mode "1366x768@59.790"
-	position x=1366 y=0
+	position x=0 y=0
 }
 
 layout {

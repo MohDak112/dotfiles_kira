@@ -6,7 +6,7 @@
         "key": " ",
         "format": "{#}Welcome back, {##008000}{name}{#}!"
     },
-    "break",
+    "separator",
     {
       "type": "os",
       "key": " ",
@@ -29,6 +29,18 @@
       "type": "wm",
       "key": " ",
       "format": "{##d65d0e} {#}WM: {#}{1}"
+    },
+
+    {
+      "type": "terminal",
+      "key": " ",
+      "format": "{##d65d0e} {#}Terminal: {1}"
+    },
+
+    {
+      "type": "shell",
+      "key": " ",
+      "format": "{##d65d0e} {#}Shell: {1}"
     },
 
     // {

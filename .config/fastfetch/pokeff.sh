@@ -2,7 +2,7 @@
 
 TMP="/tmp/poke_logo.txt"
 
-pokeget random > "$TMP"
+pokeget random --hide-name> "$TMP"
 fastfetch --logo "$TMP"
 
 rm "$TMP"

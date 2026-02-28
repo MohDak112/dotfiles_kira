@@ -1,4 +1,3 @@
 # Void Linux + niri Dotfiles
-Work in progress...
 
-My Youtube channel: https://www.youtube.com/@kiraLinux
+Showcase video: https://www.youtube.com/watch?v=Lk6hAPMnIXc

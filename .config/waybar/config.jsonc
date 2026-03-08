@@ -125,9 +125,9 @@
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{temperatureC}°C {icon}",
         "format-icons": [
-            "",
+            "",
             "",
-            ""
+            " "
         ],
 	"interval": 3
     },

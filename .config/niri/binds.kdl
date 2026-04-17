@@ -4,10 +4,12 @@ binds {
     Mod+T hotkey-overlay-title="Open a Terminal: foot" { spawn "foot"; }
     Mod+B hotkey-overlay-title="Open browser: firefox" { spawn "firefox"; }
     Mod+E hotkey-overlay-title="Open file manager: nautilus" { spawn "nautilus"; }
+    Mod+Y { spawn-sh "foot -e yazi"; }
     Mod+D hotkey-overlay-title="Run an Application: rofi" { spawn-sh "rofi -show drun"; }
     Mod+Alt+K hotkey-overlay-title="Toggle keyd" { spawn "toggle-keyd"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn-sh "swaylock -e -i ~/Pictures/tux.png"; }
     Mod+Alt+W hotkey-overlay-title="Restart Waybar" { spawn-sh "~/scripts/restart_waybar.sh"; }
+    Mod+Alt+E { spawn-sh "~/Applications/eDEX-UI-Linux-x86_64.AppImage";}
 
     // Volume control
     XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "swayosd-client --output-volume +10"; }
